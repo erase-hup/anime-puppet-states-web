@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				anime: {
+					pink: '#FF6B9D',
+					purple: '#8B5FBF',
+					blue: '#4ECDC4',
+					yellow: '#FFE66D',
+					orange: '#FF8C42',
+					neon: '#00F5FF'
 				}
 			},
 			borderRadius: {
@@ -84,11 +93,36 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'anime-float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'neon-pulse': {
+					'0%, 100%': { 
+						textShadow: '0 0 5px #00F5FF, 0 0 10px #00F5FF, 0 0 15px #00F5FF',
+						transform: 'scale(1)'
+					},
+					'50%': { 
+						textShadow: '0 0 10px #00F5FF, 0 0 20px #00F5FF, 0 0 30px #00F5FF',
+						transform: 'scale(1.02)'
+					}
+				},
+				'card-hover': {
+					'0%': { transform: 'translateY(0) scale(1)' },
+					'100%': { transform: 'translateY(-8px) scale(1.03)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'anime-float': 'anime-float 3s ease-in-out infinite',
+				'neon-pulse': 'neon-pulse 2s ease-in-out infinite',
+				'card-hover': 'card-hover 0.3s ease-out forwards'
+			},
+			backgroundImage: {
+				'anime-gradient': 'linear-gradient(135deg, #FF6B9D 0%, #8B5FBF 50%, #4ECDC4 100%)',
+				'neon-gradient': 'linear-gradient(45deg, #00F5FF 0%, #FF6B9D 50%, #FFE66D 100%)'
 			}
 		}
 	},
