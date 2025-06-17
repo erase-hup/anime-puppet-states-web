@@ -4,7 +4,7 @@ name: Deploy to GitHub Pages
 on:
   # main branch'e push olduğunda çalışır
   push:
-    branches: [ main ]
+    branches: [ codespace-urban-yodel-v6r47447rw3p947 ]
   
   # Manuel olarak çalıştırma seçeneği
   workflow_dispatch:
