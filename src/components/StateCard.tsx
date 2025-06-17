@@ -52,7 +52,7 @@ const StateCard: React.FC<StateCardProps> = ({
         
         <div className="mt-4 text-center">
           <span className="inline-block px-3 py-1 bg-gradient-to-r from-anime-purple/20 to-anime-pink/20 rounded-full text-xs text-anime-neon border border-anime-neon/30">
-            Paralel Evren
+            PuppetShow
           </span>
         </div>
       </CardContent>
