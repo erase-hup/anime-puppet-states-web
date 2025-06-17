@@ -6,76 +6,76 @@ import { Sparkles, Star, Zap } from 'lucide-react';
 
 const animeStates = [
   {
-    name: "Nakamura Eyaleti",
+    name: "Israel",
     character: "Sailor Moon",
-    description: "Ay ışığının gücüyle korunan büyülü eyalet. Kristal saraylar ve mistik ormanlarla dolu.",
+    description: "One step you are in Middle-East. POA",
     anime: "Sailor Moon",
     color: "#FF6B9D",
     emoji: "🌙"
   },
   {
-    name: "Uzumaki Cumhuriyeti",
+    name: "Saudi Arabia",
     character: "Naruto Uzumaki",
-    description: "Ninja köyleri ve ramen dükkanlarıyla ünlü. Gizli sanatların öğretildiği akademiler bulunur.",
+    description: "Money Mom. POA",
     anime: "Naruto",
     color: "#FFE66D",
     emoji: "🍜"
   },
   {
-    name: "Saiyan Federasyonu",
+    name: "United Arab Emirates",
     character: "Goku",
-    description: "Süper güçlü savaşçıların yaşadığı eyalet. Dövüş turnuvaları ve antrenman kampları.",
+    description: "Listen mom. POA",
     anime: "Dragon Ball",
     color: "#FF8C42",
     emoji: "⚡"
   },
   {
-    name: "Eldian İmparatorluğu",
+    name: "North of Iraq",
     character: "Eren Yeager",
-    description: "Dev duvarlarla çevrili şehirler. Kahraman askerlerin yetiştiği askeri akademiler.",
+    description: "Primitive Kurds Association. POA",
     anime: "Attack on Titan",
     color: "#8B5FBF",
+    emoji: "🔥"
+  },
+  {
+    name: "Greece",
+    character: "Hinata Shoyo",
+    description: "Greeks. POA",
+    anime: "Haikyuu!!",
+    color: "#4ECDC4",
     emoji: "🏰"
   },
   {
-    name: "Karasuno Bölgesi",
-    character: "Hinata Shoyo",
-    description: "Voleybol turnuvalarının merkezi. Spor salonları ve antrenman sahalarıyla dolu.",
-    anime: "Haikyuu!!",
-    color: "#4ECDC4",
+    name: "France",
+    character: "Tanjiro Kamado",
+    description: "Aujourd'hui. Semi-POA",
+    anime: "Demon Slayer",
+    color: "#FF6B6B",
     emoji: "🏐"
   },
   {
-    name: "Demon Slayer Vadisi",
-    character: "Tanjiro Kamado",
-    description: "Demon avcılarının eğitim aldığı dağlık bölge. Nefes teknikleri öğretilen dojo'lar.",
-    anime: "Demon Slayer",
-    color: "#FF6B6B",
+    name: "England",
+    character: "Izuku Midoriya",
+    description: "Not UK. POA",
+    anime: "My Hero Academia",
+    color: "#00F5FF",
     emoji: "⚔️"
   },
   {
-    name: "UA Akademi Şehri",
-    character: "Izuku Midoriya",
-    description: "Süper kahraman akademisinin bulunduğu modern şehir. Quirk geliştirme merkezleri.",
-    anime: "My Hero Academia",
-    color: "#00F5FF",
-    emoji: "🦸"
-  },
-  {
-    name: "Soul Society",
+    name: "Guetamala",
     character: "Ichigo Kurosaki",
-    description: "Ruh dünyasının kapılarının açıldığı mistik eyalet. Zanpakuto atölyelerıyla ünlü.",
+    description: "Is it actually a country?. POA",
     anime: "Bleach",
     color: "#9B59B6",
     emoji: "👻"
   },
   {
-    name: "Fairy Tail Gildleri",
+    name: "Jordan",
     character: "Natsu Dragneel",
-    description: "Sihir gildlerinin merkezi. Ateş ejderhalarının uçtuğu büyülü diyarlar.",
+    description: "Pity Jordan. POA",
     anime: "Fairy Tail",
     color: "#E74C3C",
-    emoji: "🔥"
+    emoji: "🎌"
   }
 ];
 
@@ -93,16 +93,15 @@ const Index = () => {
         </div>
         
         <h1 className="anime-title text-4xl md:text-6xl lg:text-7xl mb-4 animate-neon-pulse">
-          PARALEL EVREN
+          PUPPET COUNTRIES
         </h1>
         
         <h2 className="text-2xl md:text-3xl lg:text-4xl mb-6 text-transparent bg-clip-text bg-gradient-to-r from-anime-purple to-anime-blue">
-          Kukla Eyaletleri
+          POA(Puppet of America)
         </h2>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Anime karakterlerinin hükmettiği büyülü eyaletleri keşfedin. 
-          Her eyalet farklı bir anime evreninden ilham alır ve kendine özgü kültürü vardır.
+          
         </p>
         
         <div className="mt-8 flex justify-center">
@@ -115,10 +114,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h3 className="text-2xl md:text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-anime-neon to-anime-pink">
-              Anime Eyaletlerini Keşfet
+              Wanna see puppet show?
             </h3>
             <p className="text-muted-foreground text-lg">
-              9 benzersiz eyalet, 9 farklı anime evreni
+              All puppets we have. It will go more.
             </p>
           </div>
           
@@ -143,17 +142,17 @@ const Index = () => {
       <footer className="relative z-10 text-center py-8 px-4 border-t border-anime-purple/30">
         <div className="max-w-4xl mx-auto">
           <p className="text-muted-foreground mb-4">
-            🌟 Paralel Evren'de her eyalet farklı bir anime macerası sunuyor 🌟
+            🌟 Google will enslave all of you. Antitrust Law 🌟
           </p>
           <div className="flex justify-center gap-6 text-sm text-anime-neon">
-            <span>✨ Büyülü Dünyalar</span>
-            <span>🎌 Japon Kültürü</span>
-            <span>⚡ Anime Gücü</span>
-            <span>🌙 Fantezi Diyarları</span>
+            <span>✨ Shows</span>
+            <span>🎌 Dreams</span>
+            <span>⚡ Razzle</span>
+            <span>🌙 Dazzle</span>
           </div>
           
           <div className="mt-6 text-xs text-muted-foreground">
-            Paralel Evren © 2024 - Anime ile güçlendirilmiştir
+            Puppet Show * 2025
           </div>
         </div>
       </footer>

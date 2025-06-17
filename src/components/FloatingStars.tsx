@@ -20,7 +20,7 @@ const FloatingStars: React.FC = () => {
           id: i,
           x: Math.random() * 100,
           y: Math.random() * 100,
-          size: Math.random() * 3 + 1,
+          size: Math.random() * 15 + 1,
           delay: Math.random() * 2
         });
       }
