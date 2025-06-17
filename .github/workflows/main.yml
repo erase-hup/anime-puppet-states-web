@@ -5,6 +5,7 @@ on:
   # main branch'e push olduğunda çalışır
   push:
     branches: [ main ]
+
   
   # Manuel olarak çalıştırma seçeneği
   workflow_dispatch:
